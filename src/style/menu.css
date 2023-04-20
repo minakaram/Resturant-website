@@ -1,0 +1,58 @@
+
+.menus {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 4)),
+    url(../images/header/luisa-brimble-aFzg83dvnAI-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 160px 0px;
+}
+.menu-container{
+padding-bottom: 50px;
+}
+.menu-header .container{
+  padding: 10px 0px;
+}
+.menus h1 {
+  font-size: 65px;
+}
+.menus p {
+  font-weight: 600;
+}
+/* .container h1 {
+  color: black;
+  margin-left: 200px;
+} */
+
+.container .menu-boxes {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.container .menu-boxes .box {
+  padding: 10px 10px;
+  width: 32%;
+}
+.container .menu-boxes .box:hover .card{
+  box-shadow: 1px 1px 4px 3px rgb(163, 162, 162);
+}
+.container h1{
+  font-weight: bold;
+  padding-left: 20px;
+}
+.container .menu-boxes .box2 {
+  padding: 10px 10px;
+  width: 43%;
+}
+
+.container .menu-boxes .box2:hover .card{
+  box-shadow: 1px 1px 4px 3px rgb(163, 162, 162);
+}

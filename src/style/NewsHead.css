@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+.inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.NewsHead h1{
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.box-left-side{
+width: 40%;
+height: 400px;
+background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.4)),url(../images/news/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+padding-left: 20px;
+}
+.box-right-side{
+width: 40%;
+height: 400px;
+background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.5)),url(../images/news/stefan-johnson-xIFbDeGcy44-unsplash.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+padding-left: 20px;
+}
+.box-left-side h1 , .box-right-side h1{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
+.box-left-side p ,.box-right-side p{
+    width: 15%;
+    background-color: #DC3545;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    border-radius: 4px;
+}

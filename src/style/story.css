@@ -1,0 +1,112 @@
+.kitchen-story {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 2)),
+    url(../images/header/briana-tozour-V_Nkf1E-vYA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 160px 0px;
+}
+.kitchen-story h1 {
+  font-size: 65px;
+}
+.kitchen-story p {
+  font-weight: 600;
+}
+
+.story-content {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 100px 20px;
+  justify-content: space-evenly;
+}
+.story-content-left {
+  width: 44%;
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+.story-content-right {
+  width: 45%;
+  color: gray;
+  font-size: 19px;
+}
+.story-content-right span {
+  color: rgb(95, 91, 91);
+}
+
+.story-content-left button {
+  margin-right: 20px;
+  padding: 7px 20px;
+  border-radius: 3px;
+}
+.story-content-right p {
+  margin-bottom: 20px;
+}
+.story-content-right .cont {
+  color: rgb(197, 197, 5);
+}
+.story-content-right .cont:hover {
+  cursor: pointer;
+  color: rgb(236, 236, 36);
+}
+.team-members {
+  padding: 70px 0px;
+  background-color: #f3efef;
+}
+.team-members h1 {
+  margin-left: 100px;
+  margin-bottom: 60px;
+  color: black;
+  font-weight: bold;
+  font-size: 45px;
+}
+.team-members .members {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+}
+.team-members .members .member {
+  width: 30%;
+  background-color: #f3efef;
+}
+.team-members .members .member:hover {
+  cursor: pointer;
+}
+.team-members .img-cover:hover img {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+.team-members .img-cover {
+  overflow: hidden;
+  background-color: #f3efef;
+}
+.news-letter {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  padding: 100px 0px;
+  justify-content: space-around;
+}
+.news-letter .news-letter-left {
+  width: 45%;
+  text-align: right;
+  padding-right: 30px;
+}
+.news-letter .news-letter-right {
+  width: 45%;
+padding-top: 30px;
+}
+.news-letter .news-letter-right button {
+  margin-top: 20px;
+}
+.news-letter .news-letter-left img {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+}

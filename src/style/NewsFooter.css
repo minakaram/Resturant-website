@@ -1,0 +1,42 @@
+.NewsFooter{
+    width: 98%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 20px;
+}
+.news-footer-left-side , .news-footer-center-side , .news-footer-right-side{
+    width: 26%;
+    padding-bottom: 30px;
+    background-color: rgb(243, 239, 239);
+}
+img{
+    width: 100%;
+    height: 100%;
+
+}
+.card button{
+    margin: 10px 10px 10px 20px;
+}
+span{
+    color: black;
+    font-weight: 700;
+}
+h5{
+    margin: 0px 10px 10px 20px; 
+}
+.card{
+    overflow: hidden;
+}
+.NewsFooter .card:hover img{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.NewsFooter .img-cover{
+    overflow: hidden;
+    height: 100%;
+}
+.NewsFooter .img-cover img{
+    width: 100%;
+    height: 100%;
+}

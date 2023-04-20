@@ -1,0 +1,65 @@
+.footer {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
+    url(../images/daan-evers-tKN1WXrzQ3s-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 100px 50px;
+}
+.footer h2 {
+  color: white;
+  margin-bottom: 60px;
+  margin-left: 120px;
+}
+.homefooter {
+  height: 100%;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+}
+.homefooter1,
+.homefooter2,
+.homefooter3 {
+  width: 30%;
+  color: rgb(196, 192, 192);
+}
+.homefooter1 h3:nth-of-type(1) {
+  color: white;
+  line-height: 70px;
+}
+.homefooter2 h3:nth-of-type(1) {
+  color: white;
+
+  line-height: 70px;
+}
+.homefooter3 h3:nth-of-type(1) {
+  color: white;
+
+  line-height: 70px;
+}
+button {
+  color: rgb(196, 192, 192);
+  background-color: rgb(44, 43, 43);
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+button:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(150, 147, 147);
+}
+.footer .homefooter3 svg {
+  color: rgb(139, 138, 138);
+  margin-right: 5px;
+}
+.footer .homefooter3 svg:hover {
+  color: rgb(241, 231, 231);
+  background-color: transparent;
+}
+.homefooter3 p {
+  margin-top: 20px;
+}
+span {
+  color: rgb(139, 138, 138);
+}

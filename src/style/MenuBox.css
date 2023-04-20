@@ -1,0 +1,52 @@
+.head {
+  width: 100%;
+  padding: 80px 10px;
+  background-color: rgb(243, 239, 239);
+}
+h4 {
+  color: black;
+}
+.boxes {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card-body {
+  background-color: rgb(243, 239, 239);
+}
+
+.box {
+  padding: 10px 10px;
+  width: 32%;
+  height: 150;
+  margin-bottom: 30px;
+}
+.boxes .box:hover .card {
+  box-shadow: 1px 1px 4px 3px rgb(163, 162, 162);
+}
+.head h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 20px 0px;
+  color: black;
+}
+img {
+  width: 120%;
+}
+.salary {
+  text-align: center;
+  width: 25%;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 40%;
+  background-color: white;
+  color: rgb(240, 174, 8);
+  box-shadow: 1px 1px 20px 1px rgb(146, 145, 145);
+  cursor: pointer;
+}
+svg {
+  margin-left: 10px;
+  color: rgb(240, 174, 8);
+}

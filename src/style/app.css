@@ -1,0 +1,3 @@
+a:is(:link,:active,:visited).active{
+    color: red;
+}
