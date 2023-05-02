@@ -79,7 +79,7 @@ function Story() {
               <div className="card-body">
                 <p className="card-text">
                   <h3>Benjamin W.</h3>
-                  <p>Resturant Manager</p>
+                  <p>Resturant Chef</p>
                 </p>
               </div>
             </div>
