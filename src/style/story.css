@@ -7,7 +7,8 @@
   text-align: center;
   color: white;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: end;
   padding: 160px 0px;
 }
 .kitchen-story h1 {
@@ -124,12 +125,12 @@
     font-size: 40px;
     text-align: center;
     padding: 0;
-    margin:0px 0px 40px 0px;
+    margin: 0px 0px 40px 0px;
   }
   .team-members .members .member h3 {
     font-size: 15px;
   }
-  .team-members .members .member p{
+  .team-members .members .member p {
     font-size: 10px;
     font-weight: 600;
   }

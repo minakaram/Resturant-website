@@ -12,8 +12,10 @@ function Story() {
   return (
     <div>
       <div className="kitchen-story">
-        <h1>Kitchen's Story</h1>
-        <p>This Is How Our Kitshen Evolved In New Digital Era</p>
+        <div className="kitchen-story-header">
+          <h1>Kitchen's Story</h1>
+          <p>This Is How Our Kitshen Evolved In New Digital Era</p>
+        </div>
       </div>
       <Row className="story-content">
         <Col lg={5} sm={11} className="story-content-left mb-5">
@@ -38,7 +40,7 @@ function Story() {
           </p>
           <p>
             you are NOT allowed to redistribute the template zip file on any
-            template download website. <br /> please 
+            template download website. <br /> please
             <span className="cont"> Contact Us</span> for more information.
           </p>
         </Col>
