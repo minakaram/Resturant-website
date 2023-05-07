@@ -229,7 +229,7 @@ function Menu() {
                     <p>
                       4/5
                       <svg
-                        xmlns="http://www.w3.org/2000/svg"
+                      xmlns="http://www.w3.org/2000/svg"
                         width="20"
                         height="20"
                         fill="currentColor"

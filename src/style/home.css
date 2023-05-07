@@ -1,66 +1,96 @@
-.header{
-    width: 100%;
-    height: 600px;
-    background-color: black;
-    position: relative;
 
+
+.header {
+  width: 100%;
+  height: 600px;
+  background-color: black;
+  position: relative;
 }
-.header video{
+.header video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.inner-div {
+  width: 40%;
+  height: 350px;
+  position: absolute;
+  right: 100px;
+  bottom: 70px;
+  background-image: url(../images/slide/jason-leung-O67LZfeyYBk-unsplash.jpg);
+  background-size: cover;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 2%;
+}
+
+.inner-div h1 {
+  width: 30%;
+  margin-top: 250px;
+  margin-left: 30px;
+  background-color: white;
+  color: goldenrod;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid goldenrod;
+  font-size: 30px;
+}
+.header-txt {
+  width: 40%;
+  position: absolute;
+  left: 70px;
+  top: 180px;
+  color: #fff;
+}
+
+.header-txt h1 {
+  font-size: 70px;
+  margin-bottom: 50px;
+}
+svg {
+  margin-left: 10px;
+  color: rgb(240, 174, 8);
+}
+@media (width <= 760px) {
+  .inner-div {
+    display: none;
+  }
+  .header {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+  .header-txt{
+    margin: auto;
+    text-align: center;
+    width: 70%;
+  }
+  .header-txt p{
+    font-size: 15px;
+  }
+  .header-txt p svg{
+    font-size: 5px;
+  }
+  .header-txt h1{
+    font-size: 50px;
+  }
 }
-.inner-div{
-    width: 40%;
-    height: 350px;
-    position: absolute;
-    right: 100px;
-    bottom: 70px;
-    background-image: url(../images/slide/jason-leung-O67LZfeyYBk-unsplash.jpg);
-    background-size: cover;
-    background-color: black;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 2%;
+.video2 {
+  width: 100%;
+  height: 550px;
+  background-attachment: fixed;
+  padding: 40px 0px;
 }
-.inner-div h1{
-    width: 30%;
-    margin-top: 250px;
-    margin-left: 30px;
-    background-color: white;
-    color: goldenrod;
-    border-radius: 10px;
-    padding: 10px;
-    border: 2px solid goldenrod;
-    font-size: 30px;
-}
-.header-txt{
-    width: 40%;
-    position: absolute;
-    left: 70px;
-    top: 180px;
-    color: #fff;
-}
-.header-txt h1{
-    font-size: 70px;
-    margin-bottom: 50px;
-}
-svg{
-    margin-left: 10px;
-    color: rgb(240, 174, 8);
-}
-.video2{
-    width: 100%;
-    height: 550px;
-    background-attachment: fixed;  
-    padding: 40px 0px;
-}
-.video2 video{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -99;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.video2 video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -99;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

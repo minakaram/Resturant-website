@@ -7,19 +7,15 @@ import News from "./News";
 import HomeFooter from "./HomeFooter";
 
 function Home() {
-  const x = {
-    fontWeight: 700,
-    fontSize: 25,
-  };
   return (
-    <div>
+    <div className="home">
       <div className="header">
         <video autoPlay loop muted>
           <source src={video} type="video/mp4" />
         </video>
         <div className="header-txt">
           <h1>Delicious Steaks</h1>
-          <p style={x}>
+          <p >
             4.4/5
             <svg
               xmlns="http://www.w3.org/2000/svg"
