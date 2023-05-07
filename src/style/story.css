@@ -8,7 +8,7 @@
   color: white;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
   padding: 160px 0px;
 }
 .kitchen-story h1 {
