@@ -118,16 +118,23 @@
   }
   .team-members .members .member .card {
     font-size: 13px;
-    min-height: 250px;
+    min-height: 230px;
   }
   .team-members h1 {
     font-size: 40px;
+    text-align: center;
+    padding: 0;
+    margin:0px 0px 40px 0px;
   }
   .team-members .members .member h3 {
     font-size: 15px;
   }
+  .team-members .members .member p{
+    font-size: 10px;
+    font-weight: 600;
+  }
   .news-letter .news-letter-left {
-    text-align: center;
+    text-align: left;
     margin-bottom: 30px;
   }
   .news-letter .news-letter-left img {

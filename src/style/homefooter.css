@@ -31,19 +31,36 @@
     margin-left: 0;
   }
   .footer .homefooter1,
-  .footer .homefooter2,
   .footer .homefooter3 {
     font-size: 10px;
-    width: 32%;
+    width: 30%;
+  }
+  .footer .homefooter2 {
+    font-size: 10px;
+    width: 35%;
+  }
+  .footer .homefooter2 p {
+    margin: 5px;
   }
   .footer .homefooter3 svg {
     width: 12px;
     height: 12px;
+    margin-right: 1px !important;
   }
   .footer .homefooter2 h3:nth-of-type(1) {
     color: white;
     line-height: 40px;
     margin-top: 15px;
+    font-size: 16px;
+  }
+  .footer .homefooter1 h3:nth-of-type(1) {
+    font-size: 16px;
+  }
+  .footer .homefooter3 h3:nth-of-type(1) {
+    font-size: 16px;
+  }
+  .footer .copyright {
+    margin: 0;
   }
 }
 .homefooter {
