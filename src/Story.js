@@ -88,7 +88,7 @@ function Story() {
         </div>
       </div>
       <Row className="news-letter">
-        <Col lg={4} xs={9} className="news-letter-left">
+        <Col lg={4} xs={10} className="news-letter-left">
           <img src={img4} alt="..." />
         </Col>
         <Col lg={6} xs={10} className="news-letter-right">
