@@ -33,7 +33,7 @@
   .footer .homefooter1,
   .footer .homefooter3 {
     font-size: 10px;
-    width: 28%;
+    width: 30%;
   }
   .footer .homefooter2 {
     font-size: 10px;
@@ -52,12 +52,14 @@
     line-height: 40px;
     margin-top: 15px;
     font-size: 16px;
+    margin-bottom: 22px;
   }
   .footer .homefooter1 h3:nth-of-type(1) {
     font-size: 16px;
   }
   .footer .homefooter3 h3:nth-of-type(1) {
     font-size: 16px;
+    text-align: center;
   }
   .footer .copyright {
     margin: 0;
@@ -82,7 +84,6 @@
 }
 .homefooter2 h3:nth-of-type(1) {
   color: white;
-
   line-height: 70px;
 }
 .homefooter3 h3:nth-of-type(1) {
@@ -110,9 +111,12 @@ button:hover {
 }
 .homefooter3 p {
   margin-top: 20px;
+  text-align: center;
 }
-span {
+.homefooter3 span {
   color: rgb(139, 138, 138);
+  text-align: center;
+  margin-left: 10px;
 }
 .footer .copyright:hover {
   color: rgb(139, 138, 138) !important;
