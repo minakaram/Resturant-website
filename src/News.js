@@ -5,7 +5,7 @@ function News() {
   return (
     <div>
       <div className="head">
-        <NewsHead h1="News And Events" />
+        <NewsHead />
         <NewsFooter />
       </div>
     </div>

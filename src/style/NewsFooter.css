@@ -1,14 +1,16 @@
 .NewsFooter{
-    width: 98%;
     display: flex;
     justify-content: space-evenly;
     margin: auto;
     margin-top: 20px;
 }
 .news-footer-left-side , .news-footer-center-side , .news-footer-right-side{
-    width: 26%;
     padding-bottom: 30px;
     background-color: rgb(243, 239, 239);
+}
+
+.NewsFooter .card-body{
+    text-align: center;
 }
 img{
     width: 100%;
@@ -16,7 +18,7 @@ img{
 
 }
 .card button{
-    margin: 10px 10px 10px 20px;
+    margin: 10px 10px 10px 10px;
 }
 span{
     color: black;
