@@ -16,7 +16,7 @@ function MenuBox() {
         <h1>Special Menues</h1>
         <Container className="boxes-container">
           <Row className="menu-row">
-            <Col lg={4} md={6} sm={11} className=" box1 box mb-5">
+            <Col lg={4} md={6} sm={6} className=" box1 box mb-5">
               <Card className="card-style">
                 <Card.Img src={img1} className="card-img-top" alt="..." />
                 <Card.Body className="card-body">
@@ -80,7 +80,7 @@ function MenuBox() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4} md={6} sm={11} className=" box1 box mb-5">
+            <Col lg={4} md={6} sm={6} className=" box1 box mb-5">
               <Card className="card-style">
                 <Card.Img src={img2} className="card-img-top" alt="..." />
                 <Card.Body className="card-body">
@@ -144,7 +144,7 @@ function MenuBox() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4} md={6} sm={11} className=" box1 box mb-5">
+            <Col lg={4} md={6} sm={6} className=" box1 box mb-5">
               <Card className="card-style">
                 <Card.Img src={img3} className="card-img-top" alt="..." />
                 <Card.Body className="card-body">
@@ -208,7 +208,7 @@ function MenuBox() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4} md={6} sm={11} className=" box1 box mb-5">
+            <Col lg={4} md={6} sm={6} className=" box1 box mb-5">
               <Card className="card-style">
                 <Card.Img src={img4} className="card-img-top" alt="..." />
                 <Card.Body className="card-body">
@@ -272,7 +272,7 @@ function MenuBox() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4} md={6} sm={11} className=" box1 box mb-5">
+            <Col lg={4} md={6} sm={6} className=" box1 box mb-5">
               <Card className="card-style">
                 <Card.Img src={img5} className="card-img-top" alt="..." />
                 <Card.Body className="card-body">
@@ -336,7 +336,7 @@ function MenuBox() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4} md={6} sm={11} className=" box1 box mb-5">
+            <Col lg={4} md={6} sm={6} className=" box1 box mb-5">
               <Card className="card-style">
                 <Card.Img src={img6} className="card-img-top" alt="..." />
                 <Card.Body className="card-body">

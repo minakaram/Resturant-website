@@ -7,6 +7,7 @@ import img2 from "./images/team/nicolas-horn-MTZTGvDsHFY-unsplash.jpg";
 import img3 from "./images/team/rc-cf-FMh5o5m5N9E-unsplash.jpg";
 import img4 from "./images/charles-deluvio-FdDkfYFHqe4-unsplash.jpg";
 import HomeFooter from "./HomeFooter";
+import { Col, Row } from "react-bootstrap";
 function Story() {
   return (
     <div>
@@ -14,8 +15,8 @@ function Story() {
         <h1>Kitchen's Story</h1>
         <p>This Is How Our Kitshen Evolved In New Digital Era</p>
       </div>
-      <div className="story-content">
-        <div className="story-content-left">
+      <Row className="story-content">
+        <Col lg={5} sm={11} className="story-content-left mb-5">
           <p>
             Crispy kitchen is the latest Bootstrap 5 Html Template Provided by
             the Company.
@@ -26,8 +27,8 @@ function Story() {
           <button type="button" class="btn btn-danger">
             Say Hi
           </button>
-        </div>
-        <div className="story-content-right">
+        </Col>
+        <Col lg={5} sm={11} className="story-content-right mb-5">
           <p>
             Since this website template 100% free to use, you can edit and apply
             it for you commercial resturant websites There are 6 HTML pages
@@ -37,11 +38,11 @@ function Story() {
           </p>
           <p>
             you are NOT allowed to redistribute the template zip file on any
-            template download website. please{" "}
-            <span className="cont">Contact Us</span> for more information.
+            template download website. <br /> please 
+            <span className="cont"> Contact Us</span> for more information.
           </p>
-        </div>
-      </div>
+        </Col>
+      </Row>
       <div className="team-members">
         <h1>Team Members</h1>
         <div className="members">
@@ -86,11 +87,11 @@ function Story() {
           </div>
         </div>
       </div>
-      <div className="news-letter">
-        <div className="news-letter-left">
+      <Row className="news-letter">
+        <Col lg={4} xs={10} className="news-letter-left">
           <img src={img4} alt="..." />
-        </div>
-        <div className="news-letter-right">
+        </Col>
+        <Col lg={6} xs={10} className="news-letter-right">
           <h3>Our Newsletter</h3>
           <p className="text-muted mb-5">The Food News Everyday</p>
           <input
@@ -105,8 +106,8 @@ function Story() {
           <p className="text-muted mt-3">
             By signing up, you agree our Privacy Notice and the data Policy
           </p>
-        </div>
-      </div>
+        </Col>
+      </Row>
       <HomeFooter />
     </div>
   );

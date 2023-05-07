@@ -25,15 +25,15 @@
   justify-content: space-evenly;
 }
 .story-content-left {
-  width: 44%;
   font-size: 30px;
   font-weight: 700;
   color: black;
+  text-align: center;
 }
 .story-content-right {
-  width: 45%;
   color: gray;
   font-size: 19px;
+  text-align: center;
 }
 .story-content-right span {
   color: rgb(95, 91, 91);
@@ -94,13 +94,11 @@
   justify-content: space-around;
 }
 .news-letter .news-letter-left {
-  width: 45%;
   text-align: right;
   padding-right: 30px;
 }
 .news-letter .news-letter-right {
-  width: 45%;
-padding-top: 30px;
+  padding-top: 30px;
 }
 .news-letter .news-letter-right button {
   margin-top: 20px;
@@ -109,4 +107,32 @@ padding-top: 30px;
   height: 350px;
   width: 350px;
   border-radius: 50%;
+}
+@media (width <= 750px) {
+  .kitchen-story h1 {
+    font-size: 50px;
+  }
+  .kitchen-story p {
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .team-members .members .member .card {
+    font-size: 13px;
+    min-height: 250px;
+  }
+  .team-members h1 {
+    font-size: 40px;
+  }
+  .team-members .members .member h3 {
+    font-size: 15px;
+  }
+  .news-letter .news-letter-left {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .news-letter .news-letter-left img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
 }
