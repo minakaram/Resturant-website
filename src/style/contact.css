@@ -16,13 +16,13 @@
 .contact-header p {
   font-weight: 700;
 }
-.contact-content{
-    width: 100%;
-    padding: 50px 0px;
+.contact-content {
+  width: 100%;
+  padding: 50px 0px;
 }
 .contact-content h1 {
-    padding: 30px;
-    margin-left: 60px;
+  padding: 30px;
+  margin-left: 60px;
 }
 .contact-inner {
   width: 100%;
@@ -31,32 +31,31 @@
 }
 
 .contact-inner .contact-inner-left {
-  width: 40%;
 }
-.contact-inner .contact-inner-left .info{
-    display: flex;
-    justify-content: space-between;
+.contact-inner .contact-inner-left .info {
+  display: flex;
+  justify-content: space-between;
 }
-.contact-inner .contact-inner-left label{
-    margin-bottom: 10px;
+.contact-inner .contact-inner-left label {
+  margin-bottom: 10px;
 }
-textarea{
-    width: 100%;
-    height: 100px;
-    padding: 10px;
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
 }
-.form-btn{
-    text-align: right;
-    padding: 15px 0px;
+.form-btn {
+  text-align: right;
+  padding: 15px 0px;
 }
-.form-btn button{
-    width: 35%;
-    color: white;
+.form-btn button {
+  width: 35%;
+  color: white;
 }
-.contact-inner .contact-inner-left input{
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 100%;
+.contact-inner .contact-inner-left input {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
 }
 .contact-inner .contact-inner-left .full-name {
   width: 40%;
@@ -65,18 +64,37 @@ textarea{
   width: 40%;
 }
 .contact-inner .contact-inner-right {
-  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.contact-inner-right .contact-inner-right-container{
-    width: 80%;
-margin-bottom: 10px;
+.contact-inner-right .contact-inner-right-container {
+  margin-bottom: 10px;
+  width: 100%;
 }
-.contact-inner-right .contact-inner-right-container .opening-time{
-    padding: 10px 0px;
-    display: flex;
-    justify-content: space-between;
+.contact-inner-right .contact-inner-right-container .opening-time {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media (width<770px) {
+  .contact-inner-right .contact-inner-right-container .opening-time {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .contact-inner-right
+    .contact-inner-right-container
+    .opening-time
+    .text-muted {
+    margin: 10px;
+    font-size: 13px;
+  }
+  .contact-inner-right .contact-inner-right-container h3{
+    text-align: center;
+  }
+ 
 }

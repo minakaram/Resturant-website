@@ -9,3 +9,10 @@
     width: 90%;
     margin: 50px auto;
 }
+
+@media(width<870px){
+    .location h1{
+        font-size: 20px;
+        margin: 5px;
+    }
+}

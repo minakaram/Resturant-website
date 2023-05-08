@@ -2,6 +2,7 @@ import React from "react";
 import "./style/contact.css";
 import Location from "./component/Location";
 import HomeFooter from "./HomeFooter";
+import { Col, Row } from "react-bootstrap";
 function Contact() {
   return (
     <div>
@@ -13,8 +14,8 @@ function Contact() {
       {/* login form */}
       <div className="contact-content">
         <h1>Leave a message</h1>
-        <div className="contact-inner">
-          <div className="contact-inner-left">
+        <Row className="contact-inner">
+          <Col md={5} xs={11} className="contact-inner-left mb-5">
             {/* info */}
             <div className="info">
               {/* full name */}
@@ -41,8 +42,8 @@ function Contact() {
             <div className="form-btn">
               <button>Send</button>
             </div>
-          </div>
-          <div className="contact-inner-right">
+          </Col>
+          <Col md={5} xs={12} className="contact-inner-right">
             <div className="contact-inner-right-container">
               <h3>Week Days</h3>
               <div className="opening-time">
@@ -57,8 +58,8 @@ function Contact() {
                 <div className="text-muted">11:00 AM to 11:00 PM</div>
               </div>
             </div>
-          </div>
-        </div>
+          </Col>
+        </Row>
       </div>
       <Location />
       <HomeFooter />

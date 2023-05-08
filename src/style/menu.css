@@ -1,4 +1,3 @@
-
 .menus {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 4)),
     url(../images/header/luisa-brimble-aFzg83dvnAI-unsplash.jpg);
@@ -11,10 +10,10 @@
   flex-direction: column;
   padding: 160px 0px;
 }
-.menu-container{
-padding-bottom: 50px;
+.menu-container {
+  padding-bottom: 50px;
 }
-.menu-header .container{
+.menu-header .container {
   padding: 10px 0px;
 }
 .menus h1 {
@@ -29,30 +28,60 @@ padding-bottom: 50px;
 } */
 
 .container .menu-boxes {
-  width: 90%;
+  width: 100%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-
 .container .menu-boxes .box {
   padding: 10px 10px;
-  width: 32%;
 }
-.container .menu-boxes .box:hover .card{
+.container .menu-boxes .box:hover .card {
   box-shadow: 1px 1px 4px 3px rgb(163, 162, 162);
 }
-.container h1{
+.container h1 {
   font-weight: bold;
   padding-left: 20px;
 }
 .container .menu-boxes .box2 {
   padding: 10px 10px;
-  width: 43%;
+  min-height: 400px;
 }
 
-.container .menu-boxes .box2:hover .card{
+.container .menu-boxes .box2:hover .card {
   box-shadow: 1px 1px 4px 3px rgb(163, 162, 162);
+}
+.container .menu-boxes .salary {
+  width: 20%;
+}
+
+@media (width < 770px) {
+  .container .menu-boxes .box .salary {
+    width: 25%;
+  }
+  .container .menu-boxes .box2 .salary {
+    width: 33%;
+  }
+  .container .menu-boxes .box2 {
+    padding: 10px 10px;
+    min-height: 300px;
+  }
+  .container h1{
+    text-align: center;
+  }
+}
+@media (width < 500px) {
+  .container .menu-boxes .box2 .salary {
+    width: 45%;
+  }
+  .container .menu-boxes .box2 {
+    padding: 10px 10px;
+    min-height: 100px;
+  }
+  .container .menu-boxes .box2 svg {
+    height: 10px;
+    width: 10px;
+  }
 }

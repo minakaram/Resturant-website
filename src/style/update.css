@@ -62,3 +62,9 @@
 .video-text h1 {
   font-size: 220px;
 }
+
+@media (width<770px) {
+  .video-text h1 {
+    font-size: 120px;
+  }
+}

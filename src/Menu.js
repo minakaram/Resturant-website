@@ -11,6 +11,7 @@ import img6 from "./images/farhad-ibrahimzade-ZipYER3NLhY-unsplash.jpg";
 import img7 from "./images/louis-hansel-dphM2U1xq0U-unsplash.jpg";
 import img8 from "./images/farhad-ibrahimzade-isHUj3N0194-unsplash.jpg";
 import HomeFooter from "./HomeFooter";
+import { Card, Col, Row } from "react-bootstrap";
 function Menu() {
   return (
     <div className="menu-header">
@@ -21,11 +22,11 @@ function Menu() {
       <div className="menu-container">
         <div className="container">
           <h1 className="m-5">Breakfast menu</h1>
-          <div className="menu-boxes">
-            <div className=" box">
-              <div className="card">
-                <img src={img1} className="card-img-top" alt="..." />
-                <div className="card-body">
+          <Row className="menu-boxes">
+            <Col md={4} xs={11} className=" box">
+              <Card className="">
+                <Card.Img src={img1} className="card-img-top" alt="..." />
+                <Card.Body className="">
                   <h4 className="card-title">Morning Fresh</h4>
                   <p className="card-text">
                     <p className="salary">$12.5</p>
@@ -83,18 +84,18 @@ function Menu() {
                       </svg>
                     </p>
                   </p>
-                </div>
-              </div>
-            </div>
-            <div className=" box">
-              <div className="card">
-                <img src={img2} className="card-img-top" alt="..." />
-                <div className="card-body">
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col md={4} xs={11} className=" box">
+              <Card className="card">
+                <Card.Img src={img2} className="card-img-top" alt="..." />
+                <Card.Body className="card-body">
                   <h4 className="card-title">Tooplate Soup</h4>
                   <p className="card-text">
-                    <p className="salary">$11.5</p>
+                    <p className="salary">$22</p>
                     <p>
-                      4/5
+                      4.3/5
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="20"
@@ -147,13 +148,13 @@ function Menu() {
                       </svg>
                     </p>
                   </p>
-                </div>
-              </div>
-            </div>
-            <div className=" box">
-              <div className="card">
-                <img src={img3} className="card-img-top" alt="..." />
-                <div className="card-body">
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col md={4} xs={11} className=" box">
+              <Card className="card">
+                <Card.Img src={img3} className="card-img-top" alt="..." />
+                <Card.Body className="">
                   <h4 className="card-title">Premium Steak</h4>
                   <p className="card-text">
                     <p className="salary">$20</p>
@@ -211,25 +212,25 @@ function Menu() {
                       </svg>
                     </p>
                   </p>
-                </div>
-              </div>
-            </div>
-          </div>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
         </div>
         <div className="container">
           <h1 className="m-5">Lunch menu</h1>
-          <div className="menu-boxes">
-            <div className="box2">
-              <div className="card">
-                <img src={img4} className="card-img-top" alt="..." />
-                <div className="card-body">
+          <Row className="menu-boxes">
+            <Col md={6} xs={6} className="box2">
+              <Card className="box2-card">
+                <Card.Img src={img4} className="card-img-top" alt="..." />
+                <Card.Body className="">
                   <h4 className="card-title">Tooplate Soup</h4>
                   <p className="card-text">
                     <p className="salary">$22.5</p>
                     <p>
-                      4/5
+                      4.4/5
                       <svg
-                      xmlns="http://www.w3.org/2000/svg"
+                        xmlns="http://www.w3.org/2000/svg"
                         width="20"
                         height="20"
                         fill="currentColor"
@@ -280,13 +281,13 @@ function Menu() {
                       </svg>
                     </p>
                   </p>
-                </div>
-              </div>
-            </div>
-            <div className="box2">
-              <div className="card">
-                <img src={img5} className="card-img-top" alt="..." />
-                <div className="card-body">
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col md={6} xs={6} className="box2">
+              <Card className="card">
+                <Card.Img src={img5} className="card-img-top" alt="..." />
+                <Card.Body className="card-body">
                   <h4 className="card-title">Premium Steak</h4>
                   <p className="card-text">
                     <p className="salary">$20</p>
@@ -344,21 +345,21 @@ function Menu() {
                       </svg>
                     </p>
                   </p>
-                </div>
-              </div>
-            </div>
-          </div>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
         </div>
         <div className="container">
           <h1 className="m-5">dinner menu</h1>
-          <div className="menu-boxes">
-            <div className=" box">
-              <div className="card">
-                <img src={img6} className="card-img-top" alt="..." />
-                <div className="card-body">
+          <Row className="menu-boxes">
+            <Col md={4} xs={11} className=" box">
+              <Card className="">
+                <Card.Img src={img6} className="card-img-top" alt="..." />
+                <Card.Body className="">
                   <h4 className="card-title">Morning Fresh</h4>
                   <p className="card-text">
-                    <p className="salary">$12.5</p>
+                    <p className="salary">$20</p>
                     <p>
                       4.4/5
                       <svg
@@ -413,16 +414,16 @@ function Menu() {
                       </svg>
                     </p>
                   </p>
-                </div>
-              </div>
-            </div>
-            <div className=" box">
-              <div className="card">
-                <img src={img7} className="card-img-top" alt="..." />
-                <div className="card-body">
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col md={4} xs={11} className=" box">
+              <Card className="">
+                <Card.Img src={img7} className="card-img-top" alt="..." />
+                <Card.Body className="">
                   <h4 className="card-title">Tooplate Soup</h4>
                   <p className="card-text">
-                    <p className="salary">$11.5</p>
+                    <p className="salary">$15</p>
                     <p>
                       4/5
                       <svg
@@ -477,16 +478,16 @@ function Menu() {
                       </svg>
                     </p>
                   </p>
-                </div>
-              </div>
-            </div>
-            <div className=" box">
-              <div className="card">
-                <img src={img8} className="card-img-top" alt="..." />
-                <div className="card-body">
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col md={4} xs={11} className=" box">
+              <Card className="">
+                <Card.Img src={img8} className="card-img-top" alt="..." />
+                <Card.Body className="card-body">
                   <h4 className="card-title">Premium Steak</h4>
                   <p className="card-text">
-                    <p className="salary">$20</p>
+                    <p className="salary">$25</p>
                     <p>
                       4/5
                       <svg
@@ -541,10 +542,10 @@ function Menu() {
                       </svg>
                     </p>
                   </p>
-                </div>
-              </div>
-            </div>
-          </div>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
         </div>
       </div>
       <HomeFooter />
