@@ -100,3 +100,15 @@ svg {
   height: 100%;
   object-fit: cover;
 }
+
+@media (width<770px) {
+  .video2 {
+    background-attachment: scroll;
+    padding: 0px 0px;
+  }
+  .video2 video {
+    position: relative;
+    object-fit: cover;
+    padding: 0px 0px;
+  }
+}
